@@ -55,7 +55,7 @@ iframe {
     height: 23vw;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1342px) {
     iframe {
         width: 425px;
         height: 280px;
