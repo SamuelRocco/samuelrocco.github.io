@@ -11,7 +11,10 @@ html {
 
     /* background-image: linear-gradient(to right,mediumslateblue, cyan); */
     /* background-image: linear-gradient(to right,plum, mintcream); */
-    background-color: #ddd;
+
+    /* background-color: #ddd; */
+    background-color: #eee;
+    /* background-color: #555; */
     background-attachment: fixed;
 
 }
@@ -29,10 +32,13 @@ h3 {
 
 span {
     color: dodgerblue;
+    font-weight: bold;
 }
 
-.slash {
-    /* color: white; */
+.detail {
+    text-decoration: underline;
+    font-weight: lighter;
+
 }
 
 .comment {
@@ -193,10 +199,25 @@ span {
 
 .sidebar ul li a:hover {
     transform: scale(1.2);
-    /* background: linear-gradient(to right, mediumslateblue, dodgerblue);
+    background: linear-gradient(to right, white, white, white, mediumslateblue, mediumslateblue, dodgerblue, dodgerblue);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
-    color: mediumslateblue;
+    -webkit-background-clip: text;
+    /* color: mediumslateblue; */
+    background-size: 250% 250%;
+
+    animation: siderecolor .4s forwards;
+}
+
+@keyframes siderecolor {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+
+
 }
 
 .sections {
@@ -219,6 +240,7 @@ span {
         opacity: 1;
     }
 }
+
 li {
     line-height: 115%;
 }
@@ -233,10 +255,12 @@ section {
 }
 
 section p {
-    font-size: 1.25em;
+    /* font-size: 1.25em; */
+    font-size: large;
     /* font-size: 30px; */
 
 }
+
 section li {
     line-height: 25px;
 }
@@ -314,10 +338,12 @@ ul {
         margin: 20px 0;
         min-width: auto;
     }
+
     section {
         font-size: 200%;
         line-height: 150%;
     }
+
     li {
         font-size: 150%;
         line-height: 110%;
