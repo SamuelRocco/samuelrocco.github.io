@@ -30,9 +30,24 @@ h3 {
     font-size: 1.75em;
 }
 
+li {
+    margin: 13px 0;
+}
+
+cite {
+    font-size: small;
+}
+
 span {
     color: dodgerblue;
     font-weight: bold;
+}
+
+.mention {
+    text-align: center;
+    color: mediumslateblue;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .detail {
@@ -50,6 +65,11 @@ span {
 .imgcite {
     -webkit-column-break-inside: avoid;
     word-break: break-all;
+}
+
+.imgtext {
+    -webkit-column-break-inside: avoid;
+    word-break:keep-all;
 }
 
 .link {

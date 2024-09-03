@@ -1,0 +1,24 @@
+.mainimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.focuslink {
+    /* border: outset 2px dodgerblue;
+    padding: 2px; */
+    font-size: larger;
+    font-weight: bold;
+    color: mediumslateblue;
+    text-decoration: none;
+}
+
+.focuslink:hover {
+    color: mediumslateblue;
+    text-decoration: underline;
+}
+
+.focuslink:visited {
+    color: mediumslateblue;
+}
