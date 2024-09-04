@@ -6,7 +6,13 @@ iframe {
 
 @media (max-width: 1342px) {
     iframe {
-        width: 425px;
-        height: 280px;
+        min-width: 425px;
+        min-height: 280px;
+    }
+}
+
+@media (max-height: 770px) {
+    .iframe-container {
+        text-align: center;
     }
 }

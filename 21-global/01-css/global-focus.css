@@ -22,3 +22,32 @@
 .focuslink:visited {
     color: mediumslateblue;
 }
+
+
+@media (max-height: 1081px) {
+    .mainimage img {
+        width: 60%;
+    }
+}
+
+@media (max-height: 770px) {
+    .mainimage img {
+        width: 60%;
+    }
+}
+
+.link {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.contact-img {
+    width: 50px;
+}
+
+#flink:hover {
+    /* color: #222; */
+    color: #fff;
+    box-shadow: inset 35vw 0 0 0 mediumslateblue;
+    /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
+}

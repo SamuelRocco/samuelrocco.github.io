@@ -126,3 +126,10 @@
 .contact-img {
   width: 50px;
 }
+
+
+@media (max-width: 800px) {
+  .intro {
+    margin: 0;
+  }
+}
