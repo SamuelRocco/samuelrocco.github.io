@@ -105,7 +105,9 @@
   float: left;
   display: block;
 
-  height: fit-content;
+  height: 100%;
+
+  
 
   border-radius: 50%;
   width: 12vw;
